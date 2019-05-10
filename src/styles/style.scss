@@ -1,0 +1,10 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-vue/dist/bootstrap-vue.min.css';
+
+.navbar-light .navbar-nav .nav-link {
+	border-bottom: 2px solid transparent;
+	&.router-link-active {
+		color: black;
+		border-bottom: 2px solid black;
+	}
+}
